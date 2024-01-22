@@ -1,0 +1,28 @@
+body {
+    margin: auto;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 800px;
+    background-color: #F8F1AE;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+div ul {
+    display: block;
+    margin: auto;
+    max-width: 300px;
+}
+
+div ol {
+    display: block;
+    margin: auto;
+    max-width: 400px;
+}
