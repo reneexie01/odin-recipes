@@ -6,23 +6,34 @@ body {
     background-color: #F8F1AE;
 }
 
-h1, h2, h3 {
+.index-title, .recipe-title, .recipe-description-title, .recipe-ingredients-title, .recipe-steps-title {
     text-align: center;
 }
 
 img {
     display: block;
     margin: auto;
+    object-fit: cover;
+    width: 300px;
+    height: 300px;
 }
 
-div ul {
+.index-list, .ingredients-list {
     display: block;
     margin: auto;
     max-width: 300px;
 }
 
-div ol {
+.steps-list {
     display: block;
     margin: auto;
     max-width: 400px;
+}
+
+.index-bullet {
+    list-style: none;
+}
+
+.index-bullet li {
+    margin: 8px 0px;
 }
